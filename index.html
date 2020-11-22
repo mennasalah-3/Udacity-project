@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Udacity First Project</title>
+
+</head>
+
+<body>
+	<script src="app.js"></script>	
+	<link rel="styles" href="stylesheet.css">
+
+<div class="navbar" id="mynav">
+  <a href="#intro" class="active responsive" onclick="document.getElementById('intro').style.color = 'red' ">Intro</a>
+  <a href="#lib" class="responsive" onclick="document.getElementById('lib').style.color = 'red' ">Libraries and Freameworks</a>
+  <a href="#news"class="responsive" onclick="document.getElementById('news').style.color = 'red' ">News</a>
+  <a href="#about"class="responsive">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div id="inputText">
+	<h1>Here is a collection of paragraphs about JavaScript</h1>
+	<h2 style="font-size: 40" id="intro" >Introduction</h2>
+    <p class="groove" style="font-size: 30">JavaScript is one of the core technologies of the World Wide Web. JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior,and all major web browsers have a dedicated JavaScript engine to execute it.
+    As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). However, the language itself does not include any input/output (I/O), such as networking, storage, or graphics facilities, as the host environment (usually a web browser) provides those APIs.</p>
+    </div>
+    <div id="inputText">
+    <h2 style="font-size: 40" id="news">News</h2>
+    <pclass="groove" style="font-size: 30">TypeScript 4.1 Released — The ever popular ‘JavaScript with types’ takes more steps forward with template literal types, key remapping in mapped types, recursive conditional types, and support for React 17’s jsx and jsxs factory functions. If you’re a Create React App user though, don’t rush to upgrade just yet as a few issues have been noted.</p>
+    <hr>
+    <p class="groove"style="font-size: 30" id="id1" onclick="highlight(id1)" >A Tale of Going from JavaScript to WebAssembly — A developer of a ‘ultra resolution’ storytelling platform tells the tale of upgrading their Web client’s performance by moving from a pure JavaScript approach to one turbocharged with WebAssembly. There’s a lot to learn here.</p>
+</div>
+<div id="inputText">
+    <h2 style="font-size: 40" id ="lib">Libraries and Frameworks</h2>
+    <p class="groove"style="font-size: 30">The majority of websites use a third-party JavaScript library or web application framework as part of their client-side page scripting.
+
+jQuery is the most popular library, used by over 70% of websites.
+
+The Angular framework was created by Google for its web services; it is now open source and used by other websites. Likewise, Facebook created the React framework for its website and later released it as open source; other sites, including Twitter, now use it. There are other open source frameworks in use, such as Backbone.js and Vue.js.
+
+In contrast, the term "Vanilla JS" has been coined for websites not using any libraries or frameworks, instead relying entirely on standard JavaScript functionality.</p>
+</div>
+
+
+</body>
+
+</html>
